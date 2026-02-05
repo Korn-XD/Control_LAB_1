@@ -9,22 +9,22 @@ This script for prepare data and parameters for parameter estimator.
 motor_R = 2.418;
 motor_L = 0.2304;
 % Optimization's parameters
-motor_Eff = 0.5;
-motor_Ke = 0.05;
-motor_J = 1;
-motor_B = 1;
+motor_Eff = 0.999983333;
+motor_Ke = 1.35E-04;
+motor_J = 0.000075201;
+motor_B = 0.040085;
 
 
 
 
-% Extract collected data
-Input = sig_volt.Data;
-Time = sig_speed.Time;
-
-speed_data = double(squeeze(sig_speed.Data));
-Velo = speed_data;
-
-% Plot 
-figure(Name='Motor velocity response')
-plot(Time,Velo,Time,Input)
+% % Extract collected data
+% Input = sig_volt.Data;
+% Time = sig_speed.Time;
+% 
+% speed_data = double(squeeze(sig_speed.Data));
+% Velo = speed_data;
+% 
+% % Plot 
+% figure(Name='Motor velocity response')
+% plot(Time,Velo,Time,Input)
 
