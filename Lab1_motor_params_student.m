@@ -9,10 +9,10 @@ This script for prepare data and parameters for parameter estimator.
 motor_R = 2.418;
 motor_L = 0.2304;
 % Optimization's parameters
-motor_Eff = 0.999983333;
-motor_Ke = 1.35E-04;
-motor_J = 0.000075201;
-motor_B = 0.040085;
+motor_Eff = 0.99657;
+motor_Ke = 0.030185667;
+motor_J = 0.000086355;
+motor_B = 0.000160622;
 
 
 
